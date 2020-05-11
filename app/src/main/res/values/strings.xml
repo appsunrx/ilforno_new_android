@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ilForno</string>
+
+    <string name="name_company">ООО «Иль Форно»</string>
+    <string name="restaurants">Рестораны</string>
+    <string name="search_hint">Введите адрес доставки</string>
+
+    <string name="craft_bottom">Гастропаб</string>
+    <string name="steak_bottom">Мясной</string>
+    <string name="limonchino_bottom">Итальянский</string>
+    <string name="ilforno_bottom">Итальянский</string>
+    <string name="burger_bottom">Бургер</string>
+    <string name="cut_bottom">Мясной, винотека</string>
+    <string name="your_address">Ваш адрес</string>
+    <string name="deliver">Доставка</string>
+    <string name="contact">Самовывоз</string>
+    <string name="about_restaurant">О ресторане</string>
+    <string name="about">Стараниями пивного сомелье Евгения Поликарова в пивном ресторане Craft Kitchen появился большой выбор безалкогольного пива. География впечатляет. Тут не только классический – немецкий голландский или английский разливной лагер, но и разливной Heinaken. Есть бельгийский, австрийский, даже шотландский с цитрусовыми нотами.
+От России – безалкогольный эль со вкусом персика, от Германии – несколько видов пшеничного, в том числе с нотами банана
+и карамели, а также пшеничное нефильтрованное. В меню гастропаба Craft Kitchen сезонное обновление. Этой осенью здесь появилось свыше 30 насыщенных</string>
+
+
+    <string name="add_to_cart">Добавить в корзину</string>
+    <string name="add_to_plate">Добавки к блюду</string>
+    <string name="parcel_count">Количество</string>
+    <string name="news">Новости</string>
+
+    <string name="news_details">Стараниями пивного сомелье Евгения Поликарова в пивном ресторане Craft Kitchen появился большой выбор безалкогольного пива. География впечатляет. Тут не только классический – немецкий голландский или английский разливной лагер, но и разливной Heinaken. Есть бельгийский, австрийский, даже шотландский с цитрусовыми нотами.
+От России – безалкогольный эль со вкусом персика, от Германии – несколько видов пшеничного, в том числе с нотами банана
+и карамели, а также пшеничное нефильтрованное. В меню гастропаба Craft Kitchen сезонное обновление. Этой осенью здесь появилось свыше 30 насыщенных</string>
+
+    <string name="cart">Корзина</string>
+    <string name="next">Продолжить</string>
+    <string name="overall_sum">К оплате</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resend_sms">Отправить код еще раз</string>
+    <string name="verify_code">Подтвердить номер</string>
+    <string name="number_confirmation">Подтверждение номера</string>
+    <string name="enter_sms">Введите СМС-код</string>
+</resources>

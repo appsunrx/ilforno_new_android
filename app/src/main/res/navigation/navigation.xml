@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.aregama.ilfornos.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/toMap"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.aregama.ilfornos.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/toRestaurants"
+            app:destination="@id/restaurantsFragment" />
+        <action
+            android:id="@+id/toCloseRestaurants"
+            app:destination="@id/closeRestaurantsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.aregama.ilfornos.fragments.RestaurantsFragment"
+        android:label="fragment_restaurants"
+        tools:layout="@layout/fragment_restaurants" >
+        <action
+            android:id="@+id/toRestaurantMenu"
+            app:destination="@id/restaurantMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/closeRestaurantsFragment"
+        android:name="com.aregama.ilfornos.fragments.CloseRestaurantsFragment"
+        android:label="fragment_close_restaurants"
+        tools:layout="@layout/fragment_close_restaurants" >
+        <action
+            android:id="@+id/toRestaurantMenu"
+            app:destination="@id/restaurantMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantMenuFragment"
+        android:name="com.aregama.ilfornos.fragments.RestaurantMenuFragment"
+        android:label="fragment_restaurant_menu"
+        tools:layout="@layout/fragment_restaurant_menu" >
+        <action
+            android:id="@+id/toAboutRestaurant"
+            app:destination="@id/aboutRestaurantFragment" />
+        <action
+            android:id="@+id/toMenuItem"
+            app:destination="@id/menuItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutRestaurantFragment"
+        android:name="com.aregama.ilfornos.fragments.AboutRestaurantFragment"
+        android:label="fragment_about_restaurant"
+        tools:layout="@layout/fragment_about_restaurant" />
+    <fragment
+        android:id="@+id/menuItemFragment"
+        android:name="com.aregama.ilfornos.fragments.MenuItemFragment"
+        android:label="fragment_menu_item"
+        tools:layout="@layout/fragment_menu_item" >
+        <action
+            android:id="@+id/toAddToCart"
+            app:destination="@id/addToCartFragment" />
+        <action
+            android:id="@+id/toMap"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addToCartFragment"
+        android:name="com.aregama.ilfornos.fragments.AddToCartFragment"
+        android:label="fragment_add_to_cart"
+        tools:layout="@layout/fragment_add_to_cart" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.aregama.ilfornos.fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/toNumberRegister"
+            app:destination="@id/registerNumberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerNumberFragment"
+        android:name="com.aregama.ilfornos.fragments.register.RegisterNumberFragment"
+        android:label="fragment_register_number"
+        tools:layout="@layout/fragment_register_number" >
+        <action
+            android:id="@+id/toNumberConfirmation"
+            app:destination="@id/numberConfirmationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/numberConfirmationFragment"
+        android:name="com.aregama.ilfornos.fragments.register.NumberConfirmationFragment"
+        android:label="fragment_number_confirmation"
+        tools:layout="@layout/fragment_number_confirmation" />
+</navigation>
